@@ -41,16 +41,14 @@
     "cordova-plugin-console",
     "cordova-plugin-device",
     "cordova-plugin-statusbar",
+    "cordova-plugin-nativegeocoder",
+    "cordova-plugin-geolocation ",
     "cordova-plugin-splashscreen",
     "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": [
-    "ios",
-    {
-      "platform": "ios",
-      "version": "",
-      "locator": "ios"
-    }
+    "android@latest",
+    "ios@latest"
   ],
   "description": "entertainment: An Ionic project"
 }

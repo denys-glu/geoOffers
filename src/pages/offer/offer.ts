@@ -47,7 +47,6 @@ export class OfferPage {
         .map(res => res.json())
         .subscribe(
           data => {
-            console.log('data: ',data);
             this.items = data.data;
           },
           err => {
@@ -60,7 +59,6 @@ export class OfferPage {
         .map(res => res.json())
         .subscribe(
           data => {
-            console.log('data: ',data);
             this.items = data.data;
           },
           err => {
@@ -69,7 +67,7 @@ export class OfferPage {
           }
         )
     }
-
+    this.loaderStop(this.loader);
   }
   getLocation(){
     this.loaderStart(this.loader);
