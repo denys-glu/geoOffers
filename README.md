@@ -12,3 +12,4 @@ To just build apk use: ```ionic build android```
 then go to the ```**/platforms/android/build/outputs/apk/android-debug.apk```, your APK will be waiting for you there =)
 
 To build for iOS use ```ionic build ios```
+Then use Xcode
