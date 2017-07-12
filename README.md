@@ -1,2 +1,4 @@
-1. npm install
-2. cordova add platform android@latest
+1. npm install -g cordova 
+2. npm install -g ionic
+3. npm install
+4. ionic prepare
