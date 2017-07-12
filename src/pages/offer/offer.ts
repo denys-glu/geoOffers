@@ -42,7 +42,7 @@ export class OfferPage {
   }
   getOffers(city) {
     this.city = city;
-    if(city === 'Киев'){
+    if(city === 'Киев' || city === 'Київ' || city === 'Kiev'){
       this.http.get('http://www.mocky.io/v2/5965fb41110000fc02c8f38e')
         .map(res => res.json())
         .subscribe(
